@@ -39,6 +39,7 @@ export default Section
 
 
 5. In App.jsx return Header, Section and footer serialwise. It looks like following
+
 import React from 'react'
 import Header from './pages/Header/Header'
 import Section from './Section'
@@ -56,26 +57,5 @@ function App() {
 }
 
 export default App
-
-            {/* Render different headers based on route */}
-            <Routes>
-                <Route path="/" element={<Header1 />} />
-
-
-                <Route path="/" element={<Otherheader />} />
-                <Route path="/team" element={<Otherheader />} />
-                <Route path="/aboutus" element={<Otherheader />} />
-                <Route path="/services" element={<Otherheader />} />
-                <Route path="/contact" element={<Otherheader />} />
-
-            </Routes>
-
-            <Section />
-            <Footer />
-        </>
-    );
-}
-
-export default App;
 
 
