@@ -1,6 +1,6 @@
  //To show in webpage//
 
- 1. Delete src folder and indexedDB.html from default project folder
+ 1. Delete src folder and index.html from default project folder
 
  2. Make index.html file in project folder
 
